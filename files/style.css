@@ -1,0 +1,531 @@
+/* Body */ 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    background-color: black;
+    color: #d9d9d9;
+    font-size: 16px;
+}
+
+/* Header */
+header {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    top: 0;
+    z-index: 1000;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+}
+
+header h1 {
+    font-family: monospace;
+    margin: 10px;
+    font-size: 4rem;
+    color: #4df227; 
+}
+
+/* Nav Bar */
+nav {
+    text-align: center;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+nav a {
+    color: #d9d9d9; 
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav i {
+    color: red;
+}
+
+nav a:hover {
+    color: royalblue;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+section h2 {
+    font-family: 'Lucida Sans', Geneva, sans-serif;
+    font-size: 1.5rem;
+    color: #4df227;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Who am I */
+#about-1 {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about-1 p {
+    margin: 1px;
+    padding: 1px;
+}
+
+#title-1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#title-1 p {
+    color: #d9d9d9; 
+}
+
+#title-1 span {
+    color: red; 
+}
+
+/* Skills Section */
+#skills {
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#skills h3 {
+    font-size: 1.2rem;
+    color: red;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.skill-item {
+    background-color: #18152c;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.skill-item:hover {
+    background: rgb(13, 13, 90);
+    color: white;
+}
+
+/* Skill percentage */
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4caf50;
+}
+
+.skill-container {
+    margin-bottom: 25px;
+    padding: 15px;
+    background: #18152c;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.skill-container:hover {
+    transform: scale(1.05); 
+}
+
+.skill-title {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.skill-bar {
+    background: #444;
+    height: 15px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.skill-fill {
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.7s ease-out; 
+}
+
+.coding { background: #4caf50; }
+.pentest { background: red; }
+.investigation { background: blue; }
+.other { background: yellow; }
+
+.skill-fill::after {
+    content: attr(data-skill) '%';
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transform: translateY(-25%);
+}
+
+/* ------------------------------------- */
+/* Projects Section */
+#projects {
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 20px;
+    max-width: 1200px;
+}
+
+/* Project Cards Container */
+.project-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Match the gap in the services section */
+    padding: 0 15px;
+}
+
+/* Individual Project Card */
+.project-card {
+    background: #18152c;
+    padding: 20px; /* Match the padding of service cards */
+    border-radius: 8px;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 200px; /* Optional: sets a minimum height to maintain consistency */
+}
+
+/* Hover Effect on Project Cards */
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Match hover effect from services */
+}
+
+/* Project Title */
+.project-card h3 {
+    font-size: 1.2rem;
+    color: #4df227;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+
+.project-card p {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+/* Links in Project Cards */
+.project-card a {
+    color: #4df227;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.pid2{
+    color: blue;
+}
+
+
+/* ---------------------------------------- */
+
+/* #interests{
+    font-size: 1rem;
+    color: white;
+} */
+
+/* ========================================= */
+
+/* Certifications Section */
+#certifications {
+    padding: 40px 20px;
+    margin: 30px auto;
+    max-width: 1100px;
+}
+
+#certifications h2 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.quiz-container {
+    display: flex;
+    justify-content: center;
+}
+
+.quiz-box {
+    width: 100%;
+    max-width: 1000px;
+    padding: 10px;
+}
+
+.quiz-box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 20px;
+}
+
+.quiz-box li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    padding: 12px;
+    background: #18152c; 
+    border-left: 2px solid #4df227;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.quiz-box li:hover {
+    transform: scale(1.05);
+    background: #0e0e22;
+    border-left: 3px solid red;
+}
+
+.cert-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cert-button p {
+    font-size: 1.2rem;
+    color:blue;
+}
+
+.cert-button a {
+    color: #4df227; 
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.cert-button a:hover {
+    color: #fff; 
+}
+
+
+/* ---------------------------------------------- */
+/* Services Section */
+#about-services {
+    text-align: center;
+    max-width: 1200px; 
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 15px; 
+}
+
+.service-card {
+    background: #18152c;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 200px; /* Optional: sets a minimum height */
+}
+
+/* Hover Effect on Service Cards */
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.service-card h3 {
+    font-size: 1rem;
+    color: #4df227;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* Service Description (removing overflow and max-height) */
+.service-card p {
+    line-height: 1.4;
+    /* Removed max-height and overflow to allow content to expand naturally */
+}
+
+/* ------------------------------------------ */
+/* Contact Section */
+#contact {
+    text-align: center;
+}
+
+#resume-button {
+    margin-top: 1.5rem;
+}
+
+#resume-button a {
+    background-color: #4df227;
+    color: black;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#resume-button a:hover {
+    background-color: white;
+    color: black;
+}
+
+.social-icons a {
+    margin: 0 15px;
+    font-size: 2rem;
+    color: #4df227;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: white;
+}
+
+/* Footer */
+footer {
+    padding: 20px 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer h1 {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    color: #4df227;
+}
+
+/* ========================================================== */
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .quiz-box ul {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+
+    .project-cards-container {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 15px;
+    }
+
+    .project-card {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 2rem; /* Reduced from 4rem */
+      }
+
+      h2, h3 {
+        font-size: 1.2rem; /* Adjust as needed */
+      }
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    #title-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-icons a {
+        margin: 0 10px;
+    }
+
+    .project-cards-container {
+        grid-template-columns: 1fr; 
+    }
+
+    .service-card {
+        width: 100%;
+        height: auto;
+    }
+
+    .quiz-box ul {
+        grid-template-columns: 1fr; 
+    }
+
+    .cert-button p {
+        font-size: 1rem;
+    }
+
+    .project-card h3 {
+        font-size: 1rem;
+    }
+
+    .project-card p {
+        font-size: 0.9rem; 
+    }
+}
+
+@media (max-width: 480px) {
+
+    header h1 {
+        font-size: 1.5rem; /* Further reduced */
+      }
+    .project-cards-container {
+        padding: 0 10px;
+    }
+
+    .project-card {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .service-card {
+        padding: 10px;
+    }
+
+    .quiz-box ul {
+        grid-template-columns: 1fr; 
+    }
+
+    .cert-button p {
+        font-size: 0.9rem;
+    }
+
+    header h1 {
+        font-size: 1.8rem; 
+    }
+}
