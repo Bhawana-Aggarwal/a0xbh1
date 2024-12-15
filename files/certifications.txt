@@ -1,18 +1,16 @@
-For more information please visit my LinkedIn profile. Thank You.
+Certificates
 
-Certificates -->
-
-1. CCC (Certified Cyber Criminologist) (Vitual Cyber Labs)
+1. CCC (Certified Cyber Criminologist) (Virtual Cyber Labs)
 2. TechHacker EHCS & Python For Pentester (Bitten Tech)
 3. ISEA Certified Cyber Hygiene Practitioner (MEITY)
 4. Cyber Security Awareness Programme (NIELIT)
 5. Digital Forensics Essential (EC-Council)
-6. Digital Forensics Fundamentals (Vitual Cyber Labs)
-7. Basics of Incident Response (Vitual Cyber Labs)
-8. Session Management Vulnerability (Vitual Cyber Labs)
-9. Intrusion Detection System - IDS Setup (Vitual Cyber Labs)
-10. Information Gathering Fundamentals (Vitual Cyber Labs)
-11. Exploring Wide Scope of MITRE ATT&CK (Vitual Cyber Labs)
+6. Digital Forensics Fundamentals (Virtual Cyber Labs)
+7. Basics of Incident Response (Virtual Cyber Labs)
+8. Session Management Vulnerability (Virtual Cyber Labs)
+9. Intrusion Detection System - IDS Setup (Virtual Cyber Labs)
+10. Information Gathering Fundamentals (Virtual Cyber Labs)
+11. Exploring Wide Scope of MITRE ATT&CK (Virtual Cyber Labs)
 12. Introduction to OSINT (My OSINT Training)
 13. Cyber Hygiene Practices (MEITY)
 14. Browser Security (MEITY)
@@ -25,3 +23,5 @@ Certificates -->
 21. Facebook Security (MEITY)
 22. Password Security (MEITY)
 23. WhatsApp Security (MEITY)
+
+For more information, please visit my LinkedIn profile. Thank you.
